@@ -31,6 +31,7 @@ Gympass style app.
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [x] O usuário deve ser identificado por um JWT (JSON Web Token);
 
+<<<<<<< HEAD
 tecnologias utilizadas: 
 03-api-solid: tsx(pro node compreender o código typescript ele traduz pra javascript),tsup(biblioteca para criar a versão de build),zod(biblioteca validação variaveis),eslint(formatação e padronização de codigo),prisma(orm(object relational mapper) abstração de uma camada de serviço,mapear as tabelas do banco de dados para estruturas dentro do código e faz migration automatizada),Docker(conseguir subir o banco de dados PostgreSQL na nossa máquina),JSON web token(JWT)(autenticação criptografada),supertest(biblioteca que faz requisições HTTP (como GET, POST, PUT, DELETE) para os endpoints da sua API)
 ----------------------------------------------------------------------
@@ -71,3 +72,5 @@ Prisma (ORM (Object Relational Mapper), abstracts a service layer, maps database
 Docker (to set up the PostgreSQL database on our machine),
 JSON Web Token (JWT) (encrypted authentication),
 Supertest (library for making HTTP requests (such as GET, POST, PUT, DELETE) to your API endpoints).
+
+teste e2e github action d5e3746952a0dea20097fc097f33a685bdf37a6f
